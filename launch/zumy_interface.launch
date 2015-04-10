@@ -1,0 +1,5 @@
+<launch>
+
+<node name="zumy_interface" pkg="zumy_interfaces" type="zumy_interfaces_node" respawn="false" ns="/zumy"/>
+
+</launch>
