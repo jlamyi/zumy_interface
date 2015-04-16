@@ -33,7 +33,6 @@ public:
   void read();
   void write();
   ros::Time get_time();
-  ros::Duration get_period();
 
 private:
   hardware_interface::JointStateInterface jnt_state_interface;
